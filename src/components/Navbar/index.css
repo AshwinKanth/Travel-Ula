@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 9;
+    width: 97%;
+
+  }
+
+  .logo{
+    width: 140px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+    padding-top: 5px;
+    font-family: "Crimson Text";
+    font-weight: 600;
+  }
+  
+  .nav-links a  {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .book-now {
+    background-color: #ff6200;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+    font-family: "Crimson Text";
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+
+  .popup-container {
+    background-image: url("https://res.cloudinary.com/dq1ktqbtb/image/upload/v1725797274/dayImage_iwqyus.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    height: 90vh;
+}
+
+.destinations-container {
+  background-color: transparent; 
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  
+}
+
+.country-Name{
+  margin-left: 20px;
+  color: #ff6200;
+  font-weight: 600;
+}
+
+.indian-countries{
+  list-style-type: circle;
+}
+
+.destination-item{
+  font-family: "Crimson Text";
+  font-size: 15px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.destination-item:hover{
+  color: #ff6200;
+}
